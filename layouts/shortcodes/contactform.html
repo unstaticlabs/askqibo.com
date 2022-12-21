@@ -1,0 +1,13 @@
+<form class="column is-full" action="https://formspree.io/f/xyyagpvq" method="POST">
+    <label class="column is-full">
+        {{ .Get "email" }}:
+        <input required class="column is-full" type="email" name="email">
+    </label>
+    <label class="column is-full">
+        {{ .Get "message" }}:
+        <textarea required class="column is-full" name="message"></textarea>
+    </label>
+    <button class="button primary-btn is-medium is-fullwidth" type="submit">
+        {{ .Get "send" }}
+    </button>
+</form>

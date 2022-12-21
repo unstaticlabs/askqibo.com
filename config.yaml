@@ -1,15 +1,14 @@
-baseURL: 'https://askqibo.com/'
-languageCode: en-us
-# languageCode: fr-fr # TODO
+baseURL: "https://askqibo.com/"
+defaultContentLanguage: en
 
-title: 'Qibo, tell me why!'
+title: 'Qibo, tell me why: the app that answers all your child "why?" questions'
 theme: hugo-fresh
-copyright: 'Unstatic Labs © 2022-2023'
+copyright: "The Qibo app and brand is the intellectual property of Unstatic Labs and its creators © 2022-2023"
 
 # Disables warnings
 disableKinds:
-- taxonomy
-- taxonomyTerm
+  - taxonomy
+  - taxonomyTerm
 
 paginate: 5
 
@@ -33,29 +32,68 @@ disable404: false
 disableHugoGeneratorInject: false
 
 minify:
-    disableXML: true
-    minifyOutput: true
+  disableXML: true
+  minifyOutput: true
 
 permalinks:
-    posts: "/posts/:year/:month/:title/"
+  posts: "/posts/:year/:month/:title/"
 
 languages:
-    en:
-        languageName: "English"
-        subtitle: "creative inventions"
-        weight: 1
-        menu:
-            main:
-                # - name: Archive
-                #   url: archives
-                #   weight: 5
-                - name: Qibo
-                  url: https://askqibo.com/
+  en:
+    languageName: "English"
+    languageCode: en-us
+    weight: 1
+  fr:
+    languageName: "Français"
+    languageCode: fr-fr
+    navbarlogo:
+      image: logos/logo-qibo-primary.svg
+      link: /fr/
+    weight: 2
+    title: "Qibo, dis pourquoi: l'app qui répond aux pourquois des tout petits"
+    description: Qibo Dis Pourquoi est une application éducative qui aide les jeunes enfants (âgés de 2 à 4 ans) à explorer et à découvrir le monde qui les entoure grâce à des réponses amusantes à leur questions.
+    hero:
+      subtitle: |
+        Découvrez Qibo, l'app qui répond aux pourquois des tout-petits.
+        Qibo est un personnage ludique et amusant qui aide les jeunes curieux et curieuses à explorer et à comprendre le monde qui les entoure.
+        Grâce à Qibo, vous ne tomberez pas à court de réponses pédagogiques et rigolotes.
+      image: qibo.svg
+    copyright: "L'application et la marque Qibo sont la propriété intellectuelle de Unstatic Labs et de ses créateurs © 2022-2023"
+    navbar:
+    - title: Français 🇫🇷
+      sublinks:
+        - title: English 🇬🇧
+          url: /
+    - title: Termes d'utilisation
+      url: /fr/tou
+    footer:
+      logo: logo-qibo-2.svg
+      quicklinks:
+        column1:
+          title: Produit
+          links:
+            - text: "Termes d'utilisation"
+              link: /fr/tou
+        column2:
+          title: "A propos"
+          links:
+            - text: "Mentions Légales"
+              link: /fr/mentions
+            - text: "Droits d'auteur"
+              link: /fr/credits
+        column3:
+          title: Unstatic Labs
+          links:
+            - text: Site web
+              link: https://unstaticlabs.com/
+            - text: Nous contacter
+              link: "/fr/contact/"
+
 outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON
+  home:
+    - HTML
+    - RSS
+    - JSON
 
 params:
   # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
@@ -64,206 +102,196 @@ params:
   description: Qibo is an educational app that helps young children (ages 2-4) explore and learn about the world around them through fun and pedagogic answers to their "why?" questions.
   # Preloader ensures images are loaded before displaying to the user. If you don't want it uncomment to set it to false
   # preloader: false
+  accentLogo: /images/logos/logo-qibo-2.svg
   navbarlogo:
-  # Logo (from static/images/logos/___)
-    image: logos/logo-qibo-2.svg
+    # Logo (from static/images/logos/___)
+    image: logos/logo-qibo-primary.svg
     link: /
     # Default width/height. Uncomment if you need to change
     # width: 112
     # height: 28
   font:
     name: "Open Sans"
-    sizes: [400,600]
+    sizes: [400, 600]
   hero:
-    # Main hero title
-    title: Manage. Deploy.
-    # Hero subtitle (optional)
-    subtitle: Lorem ipsum sit dolor amet is dummy text used by the typography industry
-    # Button text
-    buttontext: Get started
-    # Where the main hero button links to
-    buttonlink: "#"
+    subtitle: "Unlock your child's curiosity with Qibo, the innovative app that helps young learners discover the wonders of the world with fun and engaging answers to all their 'why?' questions!"
     # Hero image (from static/images/___)
     image: qibo.svg
-    # Footer logos (from static/images/logos/clients/___.svg)
-    clientlogos:
-    - systek
-    - tribe
-    - kromo
-    - infinite
-    - gutwork
+    # playStoreUrl: https://google.com/
+    # appleStoreUrl: https://apple.com/
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-#   - title: Features
-#     url: /
-#   - title: Pricing
-#     url: /
-#   - title: Dropdown
-#     sublinks:
-#     - title: Dropdown item
-#       url: /
-#     - title: Dropdown item
-#       url: /
-#     - title: Dropdown item
-#       url: /
-#   - title: Log in
-#     url: /
-  - title: Install Qibo
-    url: /
-    button: true
-#   sidebar:
-#     # Logo (from /images/logos/___.svg)
-#     logo: fresh-square
-#     sections:
-#     - title: User
-#       icon: user
-#       links:
-#       - text: Profile
-#         url: /
-#       - text: Account
-#         url: /
-#       - text: Settings
-#         url: /
-  section1:
-    title: Great power comes
-    subtitle: with great responsibility
-    tiles:
-    - title: App builder
-      icon: mouse-globe
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Free trial
-    - title: Cloud integration
-      icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
-    - title: Add-ons & plugins
-      icon: plug-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
-  section2:
-    title: You're here because you want the best
-    subtitle: And we know it
-    features:
-    - title: Powerful and unified interface
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      # Icon (from /images/illustrations/icons/___.svg)
-      icon: laptop-globe
-    - title: Cross-device synchronisation
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: doc-sync
-    - title: Nomad system
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: mobile-feed
-  section3:
-    title: One platform
-    subtitle: To rule them all
-    image: illustrations/mockups/app-mockup.png
-    buttonText: Get started
-    buttonLink: "#"
-  section4:
-    title: Our Clients love us!
-    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
-    clients:
-    - name: Irma Walters
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Accountant
-      img: 1
-    - name: John Bradley
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Financial Analyst
-      img: 2
-    - name: Gary Blackman
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: HR Manager
-      img: 3
-  section5: true
+    - title: English 🇬🇧
+      sublinks:
+        - title: Français 🇫🇷
+          url: /fr/
+    - title: Terms of Use
+      url: /tou
+  # - title: Features
+  #   url: /
+  #   - title: Pricing
+  #     url: /
+  #   - title: Log in
+  #     url: /
+  # - title: Get Qibo
+  #   url: /
+  #   button: true
+  #   sidebar:
+  #     # Logo (from /images/logos/___.svg)
+  #     logo: fresh-square
+  #     sections:
+  #     - title: User
+  #       icon: user
+  #       links:
+  #       - text: Profile
+  #         url: /
+  #       - text: Account
+  #         url: /
+  #       - text: Settings
+  #         url: /
+  # section1:
+  #   title: Great power comes
+  #   subtitle: with great responsibility
+  #   tiles:
+  #   - title: App builder
+  #     icon: mouse-globe
+  #     text: This is some explanatory text that is on two rows
+  #     url: /
+  #     buttonText: Free trial
+  #   - title: Cloud integration
+  #     icon: laptop-cloud
+  #     text: This is some explanatory text that is on two rows
+  #     url: /
+  #     buttonText: Get started
+  #   - title: Add-ons & plugins
+  #     icon: plug-cloud
+  #     text: This is some explanatory text that is on two rows
+  #     url: /
+  #     buttonText: Get started
+  # section2:
+  #   title: You're here because you want the best
+  #   subtitle: And we know it
+  #   features:
+  #   - title: Powerful and unified interface
+  #     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+  #     # Icon (from /images/illustrations/icons/___.svg)
+  #     icon: laptop-globe
+  #   - title: Cross-device synchronisation
+  #     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+  #     icon: doc-sync
+  #   - title: Nomad system
+  #     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+  #     icon: mobile-feed
+  # section3:
+  #   title: One platform
+  #   subtitle: To rule them all
+  #   image: illustrations/mockups/app-mockup.png
+  #   buttonText: Get started
+  #   buttonLink: "#"
+  # section4:
+  #   title: Our Clients love us!
+  #   subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+  #   clients:
+  #   - name: Irma Walters
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     job: Accountant
+  #     img: 1
+  #   - name: John Bradley
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     job: Financial Analyst
+  #     img: 2
+  #   - name: Gary Blackman
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     job: HR Manager
+  #     img: 3
+  # section5: true
   footer:
     # Logo (from /images/logos/___)
-    logo: fresh-white-alt.svg
-    # Social Media Title
-    socialmediatitle: Follow Us
-    # Social media links (GitHub, Twitter, etc.). All are optional.
-    socialmedia:
-    - link: https://github.com/lucperkins/github-fresh
-      # Icons are from Font Awesome
-      icon: github
-    - link: https://dribbble.com/#
-      icon: dribbble
-    - link: https://facebook.com/#
-      icon: facebook
-    - link: https://twitter.com/lucperkins
-      icon: twitter
-    - link: https://bitbucket.org/#
-      icon: bitbucket
-    bulmalogo: true
+    logo: logo-qibo-2.svg
+    # # Social Media Title
+    # socialmediatitle: Follow Us
+    # # Social media links (GitHub, Twitter, etc.). All are optional.
+    # socialmedia:
+    # - link: https://github.com/lucperkins/github-fresh
+    #   # Icons are from Font Awesome
+    #   icon: github
+    # - link: https://dribbble.com/#
+    #   icon: dribbble
+    # - link: https://facebook.com/#
+    #   icon: facebook
+    # - link: https://twitter.com/lucperkins
+    #   icon: twitter
+    # - link: https://bitbucket.org/#
+    #   icon: bitbucket
+    # bulmalogo: true
     quicklinks:
       column1:
         title: "Product"
         links:
-        - text: Discover features
-          link: /
-        - text: Why choose our product?
-          link: /
-        - text: Compare features
-          link: /
-        - text: Our roadmap
-          link: /
-        - text: AGB
-          link: /agb
+          - text: Terms of Use
+            link: /tou
+        # - text: Blog
+        # link: /blog/
+        # - text: Why choose our product?
+        #   link: /
+        # - text: Compare features
+        #   link: /
+        # - text: Our roadmap
+        #   link: /
+        # - text: AGB
+        #   link: /agb
       column2:
-        title: "Docs"
+        # title: "Blog"
+        title: "About"
         links:
-        - text: Get started
-          link: /
-        - text: User guides
-          link: /
-        - text: Admin guide
-          link: /
-        - text: Developers
-          link: /
+          - text: Legals
+            link: /mentions
+          - text: Credits
+            link: /credits
+        # - text: Latest news
+        #   link: /blog/first
+        # - text: Tech articles
+        #   link: /blog/second
       column3:
-        title: "Blog"
+        title: Unstatic Labs
         links:
-        - text: Latest news
-          link: /blog/first
-        - text: Tech articles
-          link: /blog/second
+          - text: Website
+            link: https://unstaticlabs.com/
+          - text: Contact Us
+            link: /contact/
 
 markup:
-    goldmark:
-        renderer:
-            unsafe: true
-    highlight:
-        noClasses: false
-        # anchorLineNos: true
-        # codeFences: true
-        # guessSyntax: true
-        # lineNos: true
-        # style: monokai
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
 
 privacy:
-    vimeo:
-        disabled: false
-        simple: true
+  vimeo:
+    disabled: false
+    simple: true
 
-    twitter:
-        disabled: false
-        enableDNT: true
-        simple: true
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
 
-    instagram:
-        disabled: false
-        simple: true
+  instagram:
+    disabled: false
+    simple: true
 
-    youtube:
-        disabled: false
-        privacyEnhanced: true
+  youtube:
+    disabled: false
+    privacyEnhanced: true
 
 services:
-    instagram:
-        disableInlineCSS: true
-    twitter:
-        disableInlineCSS: true
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true

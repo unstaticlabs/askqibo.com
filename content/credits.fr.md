@@ -1,17 +1,9 @@
-# Qibo, tell me why
++++
+title = "Credits: Copyright and Licenses"
+date = "2022-12-21"
+aliases = ["licenses"]
++++
 
-Welcome! Qibo is a unique and innovative educational app that helps young children (ages 2-6) explore and learn about the world around them. With Qibo, children and their parents can get answers to any "Why?" questions in a fun and accessible way.
-
-Qibo features a friendly and approachable character, who is able to provide accurate and appropriate answers to any questions asked. The app uses speech-to-text technology to process user questions and text-to-speech technology to provide spoken answers, and is integrated with an AI language model — based on Open AI's latest GPT3 advancements — to generate unique responses.
-
-![Qibo](./qibo-cover-min.png)
-
-> Note this is **not** the code repository for the Qibo application.
-> This code repository is the source for the <https://askqibo.com/> website.
-
-## Illustration credits and copyrights
-
-### Meet Qibo
 
 The Qibo brand and logo are the intellectual property of [Unstatic Labs](https://unstaticlabs.com), created by Valentin Viennot and Roget Miret Giné ((c) 2022-2023).
 
@@ -33,15 +25,3 @@ All non-original illustrations are licensed under CC BY terms:
   - "[Thumb](https://thenounproject.com/icon/thumb-2286698/)", by [Travis Avery](https://thenounproject.com/travisavery/)
 
 The askqibo.com website is built using Hugo and based on the "Hugo Fresh" [theme](https://github.com/StefMa/hugo-fresh) licensed under [the MIT License](https://github.com/StefMa/hugo-fresh/blob/master/LICENSE).
-
-## Community and Support
-
-We welcome your feedback and ideas for Qibo. If you have any issues with the app or suggestions for new features, please don't hesitate to open an issue on our GitHub repository. You can also join the discussions with other Qibo users and stay updated on the latest developments by visiting the "Discussions" section of the repository.
-
-## Roadmap and Change Log
-
-You can find out more about our plans for the future of Qibo and track the changes we make to the app by visiting <https://askqibo.com/>.
-
-## Contact Us
-
-If you have any questions or concerns about Qibo, don't hesitate to [contact us](https://askqibo.com/contact/). We're always happy to help.
