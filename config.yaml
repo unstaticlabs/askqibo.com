@@ -85,6 +85,8 @@ languages:
               link: /fr/mentions
             - text: "Droits d'auteur"
               link: /fr/credits
+            - text: Confidentalité
+              link: /fr/privacy
         column3:
           title: Unstatic Labs
           links:
@@ -236,7 +238,7 @@ params:
             link: /tou
           - text: Report a bug
             link: https://github.com/unstaticlabs/askqibo.com/issues/new?assignees=&labels=app%2C+bug&template=bug_report.md&title=
-          - text: Request a new feature
+          - text: "New feature?"
             link: https://github.com/unstaticlabs/askqibo.com/issues/new?assignees=&labels=app%2C+enhancement&template=feature_request.md&title=
       column2:
         title: "About"
@@ -247,6 +249,8 @@ params:
             link: /mentions
           - text: Credits
             link: /credits
+          - text: Privacy Policy
+            link: /privacy
       column3:
         title: Unstatic Labs
         links:

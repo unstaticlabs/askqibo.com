@@ -1,7 +1,7 @@
 +++
 title = "Conditions d'utilisation"
 date = "2022-12-21"
-aliases = ["termes-utilisation","contrat-utilisation","rgpd","gdpr"]
+aliases = ["termes-utilisation","contrat-utilisation"]
 +++
 
 En installant ou en utilisant l'application "Qibo" aussi appelée "Qibo, Dis Pourquoi" (ci-après "l'Application"), vous acceptez d'être lié par les présentes conditions d'utilisation (ci-après "Conditions"). Si vous n'acceptez pas ces Conditions, vous n'êtes pas autorisé à utiliser l'Application.
@@ -31,7 +31,8 @@ Vous êtes seul responsable de votre utilisation de l'Application et de tout con
 ## Politique de confidentialité
 
 Nous nous engageons à protéger la vie privée des utilisateurs de l'Application.
-Cette section est la politique de confidentialité de l'Application.
+
+En utilisant l'Application, vous vous engagez à lire et accepter notre [Politique de Confidentialité](/fr/privacy/).
 
 ### Informations que nous collectons
 

@@ -1,7 +1,7 @@
 +++
 title = "Terms of Use"
 date = "2022-12-21"
-aliases = ["terms-of-use","rules","user-terms","service-description","license","licence","privacy"]
+aliases = ["terms-of-use","rules","user-terms","service-description","license","licence"]
 +++
 
 **By accessing or using the "Qibo" ("Tell me why", "Dis pourquoi") application ("the App"), you agree to be bound by these terms of use ("Terms").
@@ -31,7 +31,7 @@ You are solely responsible for your use of the App and any content that you acce
 ## Privacy Policy
 
 We are committed to protecting the privacy of users of the App.
-This section is the Qibo app's privacy policy.
+By agreeing to these Terms you certify having read and agreed with our full [privacy policy](/privacy/).
 
 ### Information We Collect
 
@@ -48,7 +48,7 @@ Any anonymous data that we collect is used solely for the purpose of improving t
 
 The App is intended for use by children with the help of their parents.
 We do not knowingly collect personal information from children under the age of 13.
-If you are a parent or guardian and believe that your child has provided personal information to us through the app, please contact us at so that we may delete the information from our records (see the Contact Us section below).
+If you are a parent or guardian and believe that your child has provided personal information to us through the app, please contact us so that we may delete the information from our records (see the Contact Us section below).
 
 ## Limitation of Liability
 
