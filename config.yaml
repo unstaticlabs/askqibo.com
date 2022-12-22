@@ -74,6 +74,10 @@ languages:
           links:
             - text: "Termes d'utilisation"
               link: /fr/tou
+            - text: "Signaler un bug"
+              link: https://github.com/unstaticlabs/askqibo.com/issues/new?assignees=&labels=app%2C+bug&template=bug_report.md&title=
+            - text: "Une idée?"
+              link: https://github.com/unstaticlabs/askqibo.com/issues/new?assignees=&labels=app%2C+enhancement&template=feature_request.md&title=
         column2:
           title: "A propos"
           links:
@@ -230,28 +234,19 @@ params:
         links:
           - text: Terms of Use
             link: /tou
-        # - text: Blog
-        # link: /blog/
-        # - text: Why choose our product?
-        #   link: /
-        # - text: Compare features
-        #   link: /
-        # - text: Our roadmap
-        #   link: /
-        # - text: AGB
-        #   link: /agb
+          - text: Report a bug
+            link: https://github.com/unstaticlabs/askqibo.com/issues/new?assignees=&labels=app%2C+bug&template=bug_report.md&title=
+          - text: Request a new feature
+            link: https://github.com/unstaticlabs/askqibo.com/issues/new?assignees=&labels=app%2C+enhancement&template=feature_request.md&title=
       column2:
-        # title: "Blog"
         title: "About"
         links:
+          # - text: Blog
+          #   link: /blog/
           - text: Legals
             link: /mentions
           - text: Credits
             link: /credits
-        # - text: Latest news
-        #   link: /blog/first
-        # - text: Tech articles
-        #   link: /blog/second
       column3:
         title: Unstatic Labs
         links:
