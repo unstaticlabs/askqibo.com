@@ -34,6 +34,8 @@ All non-original illustrations are licensed under CC BY terms:
 
 The askqibo.com website is built using Hugo and based on the "Hugo Fresh" [theme](https://github.com/StefMa/hugo-fresh) licensed under [the MIT License](https://github.com/StefMa/hugo-fresh/blob/master/LICENSE).
 
+For the full list of Licenses for content included in the Qibo app, please view the [Credits](https://askqibo.com/credits/) section on our website.
+
 ## Community and Support
 
 We welcome your feedback and ideas for Qibo. If you have any issues with the app or suggestions for new features, please don't hesitate to open an issue on our GitHub repository. You can also join the discussions with other Qibo users and stay updated on the latest developments by visiting the "Discussions" section of the repository.
