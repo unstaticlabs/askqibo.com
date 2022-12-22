@@ -55,8 +55,8 @@ languages:
     hero:
       subtitle: |
         Découvrez Qibo, l'app qui répond aux pourquois des tout-petits.
-        Qibo est un personnage ludique et amusant qui aide les jeunes curieux et curieuses à explorer et à comprendre le monde qui les entoure.
-        Grâce à Qibo, vous ne tomberez jamais à court de réponses pédagogiques et rigolotes.
+        Qibo est un personnage ludique et rigolo qui aide les jeunes curieux et curieuses à explorer et à comprendre le monde qui les entoure.
+        Grâce à Qibo, vous ne tomberez jamais à court de réponses pédagogiques et amusantes.
       image: qibo.svg
     copyright: "L'application et la marque Qibo sont la propriété intellectuelle de Unstatic Labs et de ses créateurs © 2022-2023"
     navbar:
