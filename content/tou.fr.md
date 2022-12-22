@@ -132,3 +132,6 @@ Les titres utilisés dans ces Conditions sont inclus à titre de commodité seul
 ## Nous contacter
 
 Pour toute question ou commentaire concernant ces Conditions ou l'Application, veuillez contacter [Unstatic Labs](https://unstaticlabs.com/contact/) ou le [support de l'Application](/fr/contact/).
+
+
+([Historique des changements](https://github.com/unstaticlabs/askqibo.com/commits/main/content/tou.fr.md) de ces Conditions d'utilisation)

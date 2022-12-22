@@ -129,3 +129,6 @@ The failure of Unstatic Labs and its creators to exercise or enforce any right o
 ## Contact Us
 
 If you have any questions or concerns about these Terms or the App, please contact [our support](/contact/) or [Unstatic Labs](https://unstaticlabs.com/contact/).
+
+
+([Change log](https://github.com/unstaticlabs/askqibo.com/commits/main/content/tou.md) for these Terms of Use)
