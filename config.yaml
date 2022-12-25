@@ -51,7 +51,7 @@ languages:
       link: /fr/
     weight: 2
     title: "Qibo, dis pourquoi: l'app qui répond aux pourquois des tout petits"
-    description: Qibo Dis Pourquoi est une application éducative qui aide les jeunes enfants (âgés de 2 à 4 ans) à explorer et à découvrir le monde qui les entoure grâce à des réponses amusantes à leur questions.
+    description: Qibo Dis Pourquoi est une application éducative qui aide les jeunes enfants (âgés de 3 à 7 ans) à explorer et à découvrir le monde qui les entoure grâce à des réponses amusantes à leur questions.
     hero:
       subtitle: |
         Découvrez Qibo, l'app qui répond aux pourquois des tout-petits.
@@ -105,7 +105,7 @@ params:
   # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
   openGraph: true
   # Used as meta data; describe your site to make Google Bots happy
-  description: Qibo is an educational app that helps young children (ages 2-4) explore and learn about the world around them through fun and pedagogic answers to their "why?" questions.
+  description: Qibo is an educational app that helps young children (ages 3-7) explore and learn about the world around them through fun and pedagogic answers to their "why?" questions.
   # Preloader ensures images are loaded before displaying to the user. If you don't want it uncomment to set it to false
   # preloader: false
   accentLogo: /images/logos/logo-qibo-2.svg
