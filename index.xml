@@ -8,6 +8,21 @@
     <language>en-us</language>
     <copyright>The Qibo app and brand is the intellectual property of Unstatic Labs and its creators © 2022-2023</copyright><atom:link href="https://askqibo.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Help</title>
+      <link>https://askqibo.com/help/</link>
+      <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://askqibo.com/help/</guid>
+      <description>Thanks for using the Qibo app!
+Here are some useful links,
+Report a bug (you can also contact us from here or at contact@askqibo.com)
+Request a feature (you can also contact us from here or at contact@askqibo.com)
+Terms of Use
+Super Tester Program Terms of Service and Usage
+Privacy Policy</description>
+    </item>
+    
+    <item>
       <title>Terms of Service and Use for the Super Tester Program</title>
       <link>https://askqibo.com/super-tester/</link>
       <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
