@@ -11,7 +11,7 @@
     <div class="columns is-vcentered">
       <div class="column is-6 is-offset-1 landing-caption">
         <h1 class="title is-1 is-bold is-spaced">
-          <img src="{{ .Site.Params.accentLogo }}" alt="{{ .Site.Title }}"/>
+          <img src="{{ .Site.Params.accentLogo }}" alt="{{ .Site.Title }}" />
         </h1>
         {{ with $subtitle }}
         <h2 class="subtitle is-5 is-muted">
@@ -20,14 +20,15 @@
         {{ end }}
         <p>
           {{ with $playStore }}
-            <a href="{{ . }}">TODO</a>
+          <a href="{{ . }}">
+            <img width="150px" alt='Get it on Google Play'
+              src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' />
+          </a>
           {{ end }}
           {{ with $appleStore }}
-            <a href="{{ . }}">TODO</a>
+          <a href="{{ . }}">TODO</a>
           {{ end }}
-          <span style="font-weight: bold; color: white;">Coming soon!</span>
-            <!-- TODO: Embed Google Play Install Link -->
-            <!-- TODO: Embed Apple Store Install Link -->
+          <!-- TODO: Embed Apple Store Install Link -->
           <!-- <a class="button cta rounded primary-btn raised" href="{{ $buttonLink }}">
             {{ $buttonText }}
           </a> -->

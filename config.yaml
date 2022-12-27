@@ -58,6 +58,7 @@ languages:
         Qibo est un personnage ludique et rigolo qui aide les jeunes curieux et curieuses à explorer et à comprendre le monde qui les entoure.
         Grâce à Qibo, vous ne tomberez jamais à court de réponses pédagogiques et amusantes.
       image: qibo.svg
+      playStoreUrl: "https://play.google.com/store/apps/details?id=com.askqibo.app"
     copyright: "L'application et la marque Qibo sont la propriété intellectuelle de Unstatic Labs et de ses créateurs © 2022-2023"
     navbar:
     - title: Français 🇫🇷
@@ -123,7 +124,7 @@ params:
     subtitle: "Unlock your child's curiosity with Qibo, the innovative app that helps young learners discover the wonders of the world with fun and engaging answers to all their 'why?' questions!"
     # Hero image (from static/images/___)
     image: qibo.svg
-    # playStoreUrl: https://google.com/
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.askqibo.app"
     # appleStoreUrl: https://apple.com/
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
